@@ -20,14 +20,16 @@ By doing random actions agent acts like shown below
 
 ## After training
 
-After training for 30,000 iterations we get agent that acts like shown below
+After training for 30,000 iterations we get agent that acts like shown below.
 
-<img src="./MountainCar Q Learning After Training REWARD -145.gif"/>
+<img src="./MountainCar Q Learning After Training.gif"/>
 
 ## Training graph
 
-Graph that shows reward over 30,000 iterations can be seen below
+Graph that shows reward over 30,000 iterations can be seen below.
 
-As you can see Q-Learning isn't the most stable RL algorithm because it performs horribly when it encounters new state
+Q learning is good algorithm when observation space doesn't have many states because for it to work it has to explore every single state.
 
-<img src="./Training Graph.png"/>
+When it encounters new state it performs random action. 
+
+<img src="./Q learning on MountainCar.png"/>
